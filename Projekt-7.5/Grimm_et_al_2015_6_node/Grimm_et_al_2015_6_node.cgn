@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Electricity Networks Lib                                -->
+<!--                                                         -->
+<!-- This Electricity Networks Lib is made available         -->
+<!-- under the Open Data Commons Attribution License:        -->
+<!-- http://opendatacommons.org/licenses/by/1.0/             -->
+<!--                                                         -->
+<!-- If you use the data in this file please cite            -->
+<!--                                                         -->
+<!-- Lars Schewe, Martin Schmidt: "Electricity Networks Lib" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<cgn>
+  <info title="Grimm_et_al_2015_6_node" date="2015-11-13" author="Martin Schmidt"
+	description="Network taken from the paper Grimm et al. (2015).
+		     It is roughly based on the network used in Chao and Peck (1998)."/>
+  <candidateGenerators>
+    <node id="node_1">
+      <candidateGenerator id="new_gen_node_1">
+        <equivalentAvailability value="0.8"/>
+        <variableCosts unit="EUR/MWh" value="10"/>
+        <investmentCosts unit="EUR/MW" value="700"/>
+      </candidateGenerator>
+    </node>
+    <node id="node_2">
+      <candidateGenerator id="new_gen_node_2">
+        <equivalentAvailability value="0.8"/>
+        <variableCosts unit="EUR/MWh" value="15"/>
+        <investmentCosts unit="EUR/MW" value="600"/>
+      </candidateGenerator>
+    </node>
+    <node id="node_4">
+      <candidateGenerator id="new_gen_node_4">
+        <equivalentAvailability value="0.8"/>
+        <variableCosts unit="EUR/MWh" value="42.5"/>
+        <investmentCosts unit="EUR/MW" value="200"/>
+      </candidateGenerator>
+    </node>
+  </candidateGenerators>
+</cgn>

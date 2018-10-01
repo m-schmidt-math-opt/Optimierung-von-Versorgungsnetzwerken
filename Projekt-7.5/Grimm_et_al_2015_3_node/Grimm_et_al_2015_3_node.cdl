@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Electricity Networks Lib                                -->
+<!--                                                         -->
+<!-- This Electricity Networks Lib is made available         -->
+<!-- under the Open Data Commons Attribution License:        -->
+<!-- http://opendatacommons.org/licenses/by/1.0/             -->
+<!--                                                         -->
+<!-- If you use the data in this file please cite            -->
+<!--                                                         -->
+<!-- Lars Schewe, Martin Schmidt: "Electricity Networks Lib" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<cdl>
+  <info title="Grimm_et_al_2015_3_node" date="2015-11-13" author="Martin Schmidt"
+	description="Network taken from the paper Grimm et al. (2015).
+		     It is roughly based on the network used in Jenabi et al. (2013)."/>
+  <candidateLines>
+    <candidateLine from="2" id="cand_line_1" to="1">
+      <capacity unit="MW" value="0.25"/>
+      <susceptance unit="S" value="10"/>
+      <investmentCosts unit="EUR" value="4.0"/>
+    </candidateLine>
+  </candidateLines>
+</cdl>

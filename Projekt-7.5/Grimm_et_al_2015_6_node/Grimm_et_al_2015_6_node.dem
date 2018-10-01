@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Electricity Networks Lib                                -->
+<!--                                                         -->
+<!-- This Electricity Networks Lib is made available         -->
+<!-- under the Open Data Commons Attribution License:        -->
+<!-- http://opendatacommons.org/licenses/by/1.0/             -->
+<!--                                                         -->
+<!-- If you use the data in this file please cite            -->
+<!--                                                         -->
+<!-- Lars Schewe, Martin Schmidt: "Electricity Networks Lib" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<dem>
+  <info title="Grimm_et_al_2015_6_node" date="2015-11-13" author="Martin Schmidt"
+	description="Network taken from the paper Grimm et al. (2015).
+		     It is roughly based on the network used in Chao and Peck (1998)."/>
+  <demand>
+    <defaults>
+      <scenarioDuration value="1" unit="week"/>
+    </defaults>
+    <scenario id="1">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0725" unit="EUR/(MWh)^2"/>
+	  <intercept value="54.375" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.145" unit="EUR/(MWh)^2"/>
+	  <intercept value="108.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.145" unit="EUR/(MWh)^2"/>
+	  <intercept value="116" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="2">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.069" unit="EUR/(MWh)^2"/>
+	  <intercept value="51.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.138" unit="EUR/(MWh)^2"/>
+	  <intercept value="103.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.138" unit="EUR/(MWh)^2"/>
+	  <intercept value="110.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="3">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.075" unit="EUR/(MWh)^2"/>
+	  <intercept value="56.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.15" unit="EUR/(MWh)^2"/>
+	  <intercept value="112.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.15" unit="EUR/(MWh)^2"/>
+	  <intercept value="120" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="4">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.084" unit="EUR/(MWh)^2"/>
+	  <intercept value="63" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.168" unit="EUR/(MWh)^2"/>
+	  <intercept value="126" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.168" unit="EUR/(MWh)^2"/>
+	  <intercept value="134.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="5">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0785" unit="EUR/(MWh)^2"/>
+	  <intercept value="58.875" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.157" unit="EUR/(MWh)^2"/>
+	  <intercept value="117.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.157" unit="EUR/(MWh)^2"/>
+	  <intercept value="125.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="6">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0675" unit="EUR/(MWh)^2"/>
+	  <intercept value="50.625" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.135" unit="EUR/(MWh)^2"/>
+	  <intercept value="101.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.135" unit="EUR/(MWh)^2"/>
+	  <intercept value="108" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="7">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0785" unit="EUR/(MWh)^2"/>
+	  <intercept value="58.875" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.157" unit="EUR/(MWh)^2"/>
+	  <intercept value="117.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.157" unit="EUR/(MWh)^2"/>
+	  <intercept value="125.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="8">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.084" unit="EUR/(MWh)^2"/>
+	  <intercept value="63" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.168" unit="EUR/(MWh)^2"/>
+	  <intercept value="126" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.168" unit="EUR/(MWh)^2"/>
+	  <intercept value="134.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="9">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0855" unit="EUR/(MWh)^2"/>
+	  <intercept value="64.125" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.171" unit="EUR/(MWh)^2"/>
+	  <intercept value="128.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.171" unit="EUR/(MWh)^2"/>
+	  <intercept value="136.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="10">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0785" unit="EUR/(MWh)^2"/>
+	  <intercept value="58.875" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.157" unit="EUR/(MWh)^2"/>
+	  <intercept value="117.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.157" unit="EUR/(MWh)^2"/>
+	  <intercept value="125.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="11">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0835" unit="EUR/(MWh)^2"/>
+	  <intercept value="62.625" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.167" unit="EUR/(MWh)^2"/>
+	  <intercept value="125.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.167" unit="EUR/(MWh)^2"/>
+	  <intercept value="133.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="12">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.081" unit="EUR/(MWh)^2"/>
+	  <intercept value="60.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.162" unit="EUR/(MWh)^2"/>
+	  <intercept value="121.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.162" unit="EUR/(MWh)^2"/>
+	  <intercept value="129.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="13">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.083" unit="EUR/(MWh)^2"/>
+	  <intercept value="62.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.166" unit="EUR/(MWh)^2"/>
+	  <intercept value="124.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.166" unit="EUR/(MWh)^2"/>
+	  <intercept value="132.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="14">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.081" unit="EUR/(MWh)^2"/>
+	  <intercept value="60.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.162" unit="EUR/(MWh)^2"/>
+	  <intercept value="121.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.162" unit="EUR/(MWh)^2"/>
+	  <intercept value="129.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="15">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0785" unit="EUR/(MWh)^2"/>
+	  <intercept value="58.875" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.157" unit="EUR/(MWh)^2"/>
+	  <intercept value="117.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.157" unit="EUR/(MWh)^2"/>
+	  <intercept value="125.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="16">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0835" unit="EUR/(MWh)^2"/>
+	  <intercept value="62.625" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.167" unit="EUR/(MWh)^2"/>
+	  <intercept value="125.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.167" unit="EUR/(MWh)^2"/>
+	  <intercept value="133.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="17">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0705" unit="EUR/(MWh)^2"/>
+	  <intercept value="52.875" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.141" unit="EUR/(MWh)^2"/>
+	  <intercept value="105.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.141" unit="EUR/(MWh)^2"/>
+	  <intercept value="112.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="18">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.08" unit="EUR/(MWh)^2"/>
+	  <intercept value="60" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.16" unit="EUR/(MWh)^2"/>
+	  <intercept value="120" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.16" unit="EUR/(MWh)^2"/>
+	  <intercept value="128" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="19">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0895" unit="EUR/(MWh)^2"/>
+	  <intercept value="67.125" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.179" unit="EUR/(MWh)^2"/>
+	  <intercept value="134.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.179" unit="EUR/(MWh)^2"/>
+	  <intercept value="143.2" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="20">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.089" unit="EUR/(MWh)^2"/>
+	  <intercept value="66.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.178" unit="EUR/(MWh)^2"/>
+	  <intercept value="133.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.178" unit="EUR/(MWh)^2"/>
+	  <intercept value="142.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="21">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0855" unit="EUR/(MWh)^2"/>
+	  <intercept value="64.125" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.171" unit="EUR/(MWh)^2"/>
+	  <intercept value="128.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.171" unit="EUR/(MWh)^2"/>
+	  <intercept value="136.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="22">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0815" unit="EUR/(MWh)^2"/>
+	  <intercept value="61.125" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.163" unit="EUR/(MWh)^2"/>
+	  <intercept value="122.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.163" unit="EUR/(MWh)^2"/>
+	  <intercept value="130.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="23">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.086" unit="EUR/(MWh)^2"/>
+	  <intercept value="64.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.172" unit="EUR/(MWh)^2"/>
+	  <intercept value="129" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.172" unit="EUR/(MWh)^2"/>
+	  <intercept value="137.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="24">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.085" unit="EUR/(MWh)^2"/>
+	  <intercept value="63.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.17" unit="EUR/(MWh)^2"/>
+	  <intercept value="127.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.17" unit="EUR/(MWh)^2"/>
+	  <intercept value="136" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="25">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.068" unit="EUR/(MWh)^2"/>
+	  <intercept value="51" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.136" unit="EUR/(MWh)^2"/>
+	  <intercept value="102" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.136" unit="EUR/(MWh)^2"/>
+	  <intercept value="108.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="26">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.075" unit="EUR/(MWh)^2"/>
+	  <intercept value="56.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.15" unit="EUR/(MWh)^2"/>
+	  <intercept value="112.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.15" unit="EUR/(MWh)^2"/>
+	  <intercept value="120" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="27">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.074" unit="EUR/(MWh)^2"/>
+	  <intercept value="55.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.148" unit="EUR/(MWh)^2"/>
+	  <intercept value="111" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.148" unit="EUR/(MWh)^2"/>
+	  <intercept value="118.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="28">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0755" unit="EUR/(MWh)^2"/>
+	  <intercept value="56.625" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.151" unit="EUR/(MWh)^2"/>
+	  <intercept value="113.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.151" unit="EUR/(MWh)^2"/>
+	  <intercept value="120.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="29">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.07" unit="EUR/(MWh)^2"/>
+	  <intercept value="52.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.14" unit="EUR/(MWh)^2"/>
+	  <intercept value="105" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.14" unit="EUR/(MWh)^2"/>
+	  <intercept value="112" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="30">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.063" unit="EUR/(MWh)^2"/>
+	  <intercept value="47.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.126" unit="EUR/(MWh)^2"/>
+	  <intercept value="94.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.126" unit="EUR/(MWh)^2"/>
+	  <intercept value="100.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="31">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0705" unit="EUR/(MWh)^2"/>
+	  <intercept value="52.875" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.141" unit="EUR/(MWh)^2"/>
+	  <intercept value="105.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.141" unit="EUR/(MWh)^2"/>
+	  <intercept value="112.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="32">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0615" unit="EUR/(MWh)^2"/>
+	  <intercept value="46.125" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.123" unit="EUR/(MWh)^2"/>
+	  <intercept value="92.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.123" unit="EUR/(MWh)^2"/>
+	  <intercept value="98.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="33">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.074" unit="EUR/(MWh)^2"/>
+	  <intercept value="55.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.148" unit="EUR/(MWh)^2"/>
+	  <intercept value="111" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.148" unit="EUR/(MWh)^2"/>
+	  <intercept value="118.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="34">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0825" unit="EUR/(MWh)^2"/>
+	  <intercept value="61.875" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.165" unit="EUR/(MWh)^2"/>
+	  <intercept value="123.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.165" unit="EUR/(MWh)^2"/>
+	  <intercept value="132" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="35">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0795" unit="EUR/(MWh)^2"/>
+	  <intercept value="59.625" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.159" unit="EUR/(MWh)^2"/>
+	  <intercept value="119.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.159" unit="EUR/(MWh)^2"/>
+	  <intercept value="127.2" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="36">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.076" unit="EUR/(MWh)^2"/>
+	  <intercept value="57" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.152" unit="EUR/(MWh)^2"/>
+	  <intercept value="114" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.152" unit="EUR/(MWh)^2"/>
+	  <intercept value="121.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="37">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.076" unit="EUR/(MWh)^2"/>
+	  <intercept value="57" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.152" unit="EUR/(MWh)^2"/>
+	  <intercept value="114" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.152" unit="EUR/(MWh)^2"/>
+	  <intercept value="121.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="38">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0825" unit="EUR/(MWh)^2"/>
+	  <intercept value="61.875" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.165" unit="EUR/(MWh)^2"/>
+	  <intercept value="123.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.165" unit="EUR/(MWh)^2"/>
+	  <intercept value="132" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="39">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.082" unit="EUR/(MWh)^2"/>
+	  <intercept value="61.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.164" unit="EUR/(MWh)^2"/>
+	  <intercept value="123" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.164" unit="EUR/(MWh)^2"/>
+	  <intercept value="131.2" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="40">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0745" unit="EUR/(MWh)^2"/>
+	  <intercept value="55.875" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.149" unit="EUR/(MWh)^2"/>
+	  <intercept value="111.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.149" unit="EUR/(MWh)^2"/>
+	  <intercept value="119.2" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="41">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.079" unit="EUR/(MWh)^2"/>
+	  <intercept value="59.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.158" unit="EUR/(MWh)^2"/>
+	  <intercept value="118.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.158" unit="EUR/(MWh)^2"/>
+	  <intercept value="126.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="42">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0805" unit="EUR/(MWh)^2"/>
+	  <intercept value="60.375" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.161" unit="EUR/(MWh)^2"/>
+	  <intercept value="120.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.161" unit="EUR/(MWh)^2"/>
+	  <intercept value="128.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="43">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.08" unit="EUR/(MWh)^2"/>
+	  <intercept value="60" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.16" unit="EUR/(MWh)^2"/>
+	  <intercept value="120" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.16" unit="EUR/(MWh)^2"/>
+	  <intercept value="128" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="44">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.079" unit="EUR/(MWh)^2"/>
+	  <intercept value="59.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.158" unit="EUR/(MWh)^2"/>
+	  <intercept value="118.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.158" unit="EUR/(MWh)^2"/>
+	  <intercept value="126.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="45">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0815" unit="EUR/(MWh)^2"/>
+	  <intercept value="61.125" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.163" unit="EUR/(MWh)^2"/>
+	  <intercept value="122.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.163" unit="EUR/(MWh)^2"/>
+	  <intercept value="130.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="46">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.088" unit="EUR/(MWh)^2"/>
+	  <intercept value="66" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.176" unit="EUR/(MWh)^2"/>
+	  <intercept value="132" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.176" unit="EUR/(MWh)^2"/>
+	  <intercept value="140.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="47">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.089" unit="EUR/(MWh)^2"/>
+	  <intercept value="66.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.178" unit="EUR/(MWh)^2"/>
+	  <intercept value="133.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.178" unit="EUR/(MWh)^2"/>
+	  <intercept value="142.4" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="48">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0775" unit="EUR/(MWh)^2"/>
+	  <intercept value="58.125" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.155" unit="EUR/(MWh)^2"/>
+	  <intercept value="116.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.155" unit="EUR/(MWh)^2"/>
+	  <intercept value="124" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="49">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0685" unit="EUR/(MWh)^2"/>
+	  <intercept value="51.375" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.137" unit="EUR/(MWh)^2"/>
+	  <intercept value="102.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.137" unit="EUR/(MWh)^2"/>
+	  <intercept value="109.6" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="50">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.0705" unit="EUR/(MWh)^2"/>
+	  <intercept value="52.875" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.141" unit="EUR/(MWh)^2"/>
+	  <intercept value="105.75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.141" unit="EUR/(MWh)^2"/>
+	  <intercept value="112.8" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="51">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.067" unit="EUR/(MWh)^2"/>
+	  <intercept value="50.25" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.134" unit="EUR/(MWh)^2"/>
+	  <intercept value="100.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.134" unit="EUR/(MWh)^2"/>
+	  <intercept value="107.2" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="52">
+      <node id="node_3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-0.05" unit="EUR/(MWh)^2"/>
+	  <intercept value="37.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_at_node_5">
+	  <slope value="-0.1" unit="EUR/(MWh)^2"/>
+	  <intercept value="75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_at_node_6">
+	  <slope value="-0.1" unit="EUR/(MWh)^2"/>
+	  <intercept value="80" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+  </demand>
+</dem>

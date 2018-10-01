@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Electricity Networks Lib                                -->
+<!--                                                         -->
+<!-- This Electricity Networks Lib is made available         -->
+<!-- under the Open Data Commons Attribution License:        -->
+<!-- http://opendatacommons.org/licenses/by/1.0/             -->
+<!--                                                         -->
+<!-- If you use the data in this file please cite            -->
+<!--                                                         -->
+<!-- Lars Schewe, Martin Schmidt: "Electricity Networks Lib" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<cdl>
+  <info title="Chao_Peck__1998" date="2015-11-13" author="Martin Schmidt"
+	description="The network from the paper 'Reliability Management in Competitive Electricity Markets' by Chao and Peck (1998)"/>
+  <candidateLines>
+    <candidateLine from="node_1" id="cand_line_1" to="node_6">
+      <capacity unit="MW" value="160"/>
+      <susceptance unit="S" value="0.5"/>
+      <investmentCosts unit="EUR" value="18000"/>
+    </candidateLine>
+    <candidateLine from="node_2" id="cand_line_2" to="node_5">
+      <capacity unit="MW" value="200"/>
+      <susceptance unit="S" value="0.5"/>
+      <investmentCosts unit="EUR" value="23000"/>
+    </candidateLine>
+  </candidateLines>
+</cdl>

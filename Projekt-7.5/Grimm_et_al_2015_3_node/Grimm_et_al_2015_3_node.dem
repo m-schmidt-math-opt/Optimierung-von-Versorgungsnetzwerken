@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Electricity Networks Lib                                -->
+<!--                                                         -->
+<!-- This Electricity Networks Lib is made available         -->
+<!-- under the Open Data Commons Attribution License:        -->
+<!-- http://opendatacommons.org/licenses/by/1.0/             -->
+<!--                                                         -->
+<!-- If you use the data in this file please cite            -->
+<!--                                                         -->
+<!-- Lars Schewe, Martin Schmidt: "Electricity Networks Lib" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<dem>
+  <info title="Grimm_et_al_2015_3_node" date="2015-11-13" author="Martin Schmidt"
+	description="Network taken from the paper Grimm et al. (2015).
+		     It is roughly based on the network used in Jenabi et al. (2013)."/>
+  <demand>
+    <defaults>
+      <scenarioDuration value="0.25" unit="year"/>
+      <node id="3">
+	<consumer id="cons_at_node_3">
+	  <slope value="-500" unit="EUR/(MWh)^2"/>
+	</consumer>
+      </node>
+    </defaults>
+    <scenario id="1">
+      <node id="3">
+	<consumer id="cons_at_node_3">
+	  <intercept value="550" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="2">
+      <node id="3">
+	<consumer id="cons_at_node_3">
+	  <intercept value="275" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="3">
+      <node id="3">
+	<consumer id="cons_at_node_3">
+	  <intercept value="550" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+    <scenario id="4">
+      <node id="3">
+	<consumer id="cons_at_node_3">
+	  <intercept value="825" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </scenario>
+  </demand>
+</dem>

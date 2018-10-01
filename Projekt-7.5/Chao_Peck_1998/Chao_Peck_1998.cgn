@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Electricity Networks Lib                                -->
+<!--                                                         -->
+<!-- This Electricity Networks Lib is made available         -->
+<!-- under the Open Data Commons Attribution License:        -->
+<!-- http://opendatacommons.org/licenses/by/1.0/             -->
+<!--                                                         -->
+<!-- If you use the data in this file please cite            -->
+<!--                                                         -->
+<!-- Lars Schewe, Martin Schmidt: "Electricity Networks Lib" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<cgn>
+  <info title="Chao_Peck__1998" date="2015-11-13" author="Martin Schmidt"
+	description="The network from the paper 'Reliability Management in Competitive Electricity Markets' by Chao and Peck (1998)"/>
+  <candidateGenerators>
+    <node id="node_1">
+      <candidateGenerator id="gen_1">
+	<equivalentAvailability value="1"/>
+	<variableCosts value="0.05" unit="EUR/MWh"/>
+	<investmentCosts value="10" unit="EUR/MW"/>
+      </candidateGenerator>
+    </node>
+    <node id="node_2">
+      <candidateGenerator id="gen_2">
+	<equivalentAvailability value="1"/>
+	<variableCosts value="0.05" unit="EUR/MWh"/>
+	<investmentCosts value="15" unit="EUR/MW"/>
+      </candidateGenerator>
+    </node>
+    <node id="node_4">
+      <candidateGenerator id="gen_3">
+	<equivalentAvailability value="1"/>
+	<variableCosts value="0.025" unit="EUR/MWh"/>
+	<investmentCosts value="42.5" unit="EUR/MW"/>
+      </candidateGenerator>
+    </node>
+  </candidateGenerators>
+</cgn>

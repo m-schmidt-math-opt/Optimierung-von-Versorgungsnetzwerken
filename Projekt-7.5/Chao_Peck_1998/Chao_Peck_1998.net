@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Electricity Networks Lib                                -->
+<!--                                                         -->
+<!-- This Electricity Networks Lib is made available         -->
+<!-- under the Open Data Commons Attribution License:        -->
+<!-- http://opendatacommons.org/licenses/by/1.0/             -->
+<!--                                                         -->
+<!-- If you use the data in this file please cite            -->
+<!--                                                         -->
+<!-- Lars Schewe, Martin Schmidt: "Electricity Networks Lib" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<net>
+  <info title="Chao_Peck__1998" date="2015-11-13" author="Martin Schmidt"
+	description="The network from the paper 'Reliability Management in Competitive Electricity Markets' by Chao and Peck (1998)"/>
+  <network>
+    <nodes>
+      <!-- northern nodes -->
+      <node id="node_1" geoWGS84Lat="2" geoWGS84Long="-1"/>
+      <node id="node_2" geoWGS84Lat="2" geoWGS84Long="1"/>
+      <node id="node_3" geoWGS84Lat="3" geoWGS84Long="0"/>
+      <!-- southern nodes -->
+      <node id="node_4" geoWGS84Lat="-1" geoWGS84Long="0"/>
+      <node id="node_5" geoWGS84Lat="0" geoWGS84Long="1"/>
+      <node id="node_6" geoWGS84Lat="0" geoWGS84Long="-1"/>
+    </nodes>
+    <lines>
+      <!--
+	  The original network of Chao and Peck (1998)
+	  is specified using impedences whereas we use
+	  susceptances. The susceptances in this network
+	  are chosen ... somehow.
+      -->
+      <!-- northern lines (with capacity of "infinity") -->
+      <line id="line_1" from="node_1" to="node_2">
+	<capacity value="10000" unit="MW"/>
+	<susceptance value="1" unit="S"/>
+      </line>
+      <line id="line_2" from="node_1" to="node_3">
+	<capacity value="10000" unit="MW"/>
+	<susceptance value="1" unit="S"/>
+      </line>
+      <line id="line_3" from="node_2" to="node_3">
+	<capacity value="10000" unit="MW"/>
+	<susceptance value="1" unit="S"/>
+      </line>
+      <!-- north-south lines -->
+      <line id="line_4" from="node_1" to="node_6">
+	<capacity value="200" unit="MW"/>
+	<susceptance value="0.5" unit="S"/>
+      </line>
+      <line id="line_5" from="node_2" to="node_5">
+	<capacity value="250" unit="MW"/>
+	<susceptance value="0.5" unit="S"/>
+      </line>
+      <!-- southern lines (with capacity of "infinity") -->
+      <line id="line_6" from="node_6" to="node_4">
+	<capacity value="10000" unit="MW"/>
+	<susceptance value="1" unit="S"/>
+      </line>
+      <line id="line_7" from="node_5" to="node_4">
+	<capacity value="10000" unit="MW"/>
+	<susceptance value="1" unit="S"/>
+      </line>
+      <line id="line_8" from="node_5" to="node_6">
+	<capacity value="10000" unit="MW"/>
+	<susceptance value="1" unit="S"/>
+      </line>
+    </lines>
+  </network>
+</net>

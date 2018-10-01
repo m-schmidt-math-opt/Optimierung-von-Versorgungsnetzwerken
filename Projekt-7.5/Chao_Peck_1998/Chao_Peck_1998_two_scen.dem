@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Electricity Networks Lib                                -->
+<!--                                                         -->
+<!-- This Electricity Networks Lib is made available         -->
+<!-- under the Open Data Commons Attribution License:        -->
+<!-- http://opendatacommons.org/licenses/by/1.0/             -->
+<!--                                                         -->
+<!-- If you use the data in this file please cite            -->
+<!--                                                         -->
+<!-- Lars Schewe, Martin Schmidt: "Electricity Networks Lib" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<dem>
+  <info title="Chao_Peck__1998" date="2015-11-13" author="Martin Schmidt"
+	description="The network from the paper 'Reliability Management in Competitive Electricity Markets' by Chao and Peck (1998)"/>
+  <demand>
+    <defaults>
+      <scenarioDuration value="1" unit="hour"/>
+      <node id="node_3">
+	<consumer id="cons_3">
+	  <slope value="-0.05" unit="EUR/(MWh)^2"/>
+	  <intercept value="37.5" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_5">
+	<consumer id="cons_5">
+	  <slope value="-0.1" unit="EUR/(MWh)^2"/>
+	  <intercept value="75" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+      <node id="node_6">
+	<consumer id="cons_6">
+	  <slope value="-0.1" unit="EUR/(MWh)^2"/>
+	  <intercept value="80" unit="EUR/MWh"/>
+	</consumer>
+      </node>
+    </defaults>
+    <scenario id="1"></scenario>
+    <scenario id="2"></scenario>
+  </demand>
+</dem>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Electricity Networks Lib                                -->
+<!--                                                         -->
+<!-- This Electricity Networks Lib is made available         -->
+<!-- under the Open Data Commons Attribution License:        -->
+<!-- http://opendatacommons.org/licenses/by/1.0/             -->
+<!--                                                         -->
+<!-- If you use the data in this file please cite            -->
+<!--                                                         -->
+<!-- Lars Schewe, Martin Schmidt: "Electricity Networks Lib" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<net>
+  <info title="Grimm_et_al_2015_3_node" date="2015-11-13" author="Martin Schmidt"
+	description="Network taken from the paper Grimm et al. (2015).
+		     It is roughly based on the network used in Jenabi et al. (2013)."/>
+  <network>
+    <nodes>
+      <node id="1" geoWGS84Lat="0" geoWGS84Long="0"/>
+      <node id="2" geoWGS84Lat="1" geoWGS84Long="1"/>
+      <node id="3" geoWGS84Lat="0" geoWGS84Long="2"/>
+    </nodes>
+    <lines>
+      <line id="line_1" from="1" to="3">
+	<capacity value="2" unit="MW"/>
+	<susceptance value="8" unit="S"/>
+      </line>
+      <line id="line_2" from="3" to="2">
+	<capacity value="2" unit="MW"/>
+	<susceptance value="8" unit="S"/>
+      </line>
+      <line id="line_3" from="2" to="1">
+	<capacity value="0.25" unit="MW"/>
+	<susceptance value="8" unit="S"/>
+      </line>
+    </lines>
+  </network>
+</net>
